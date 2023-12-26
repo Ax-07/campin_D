@@ -9,7 +9,7 @@ export const About = () => {
   const [valeur, setValeur] = useState([]);
 
   useEffect(() => {
-    getAllData("../src/db/valeur.json")
+    getAllData("./db/valeur.json")
       .then((data) => {
         setValeur(data);
       })
