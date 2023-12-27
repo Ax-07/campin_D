@@ -1,0 +1,39 @@
+.tarifs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 50px;
+    &__table {
+        width: 100%;
+        border: 1px solid #000;
+        border-collapse: separate; // collapse pour afficher les bordures
+        &-header {
+            background-color: beige;
+            text-align: center;
+            border: 1px solid #000;
+            
+        }
+        &-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        &-row:nth-of-type(even) {
+            background-color: #eee;
+
+        }
+        &-item {
+            width: 100px;
+            padding: 3px;
+            &-categories {
+                width: 400px;
+            }
+            &-price {
+                text-align: right;
+            }
+            &-mention {
+                text-align: center;
+                font-size: 11px;
+            }
+        }
+    }
+}

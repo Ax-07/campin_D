@@ -6,8 +6,9 @@
 @import './layouts/header.scss';
 @import './layouts/main.scss';
 @import './layouts/footer.scss';
-@import './layouts/gallery.scss';
+@import './layouts/tarifsList.scss';
 
+@import './layouts/gallery.scss';
 @import './pages/logement.scss';
 @import './pages/about.scss';
 @import './pages/error404.scss';
@@ -20,3 +21,4 @@
 @import './components/host.scss';
 @import './components/rating.scss';
 @import './components/dropDown.scss';
+@import './components/tarifsCard.scss';

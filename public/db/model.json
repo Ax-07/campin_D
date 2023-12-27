@@ -1,0 +1,537 @@
+[
+  {
+    "data": {
+      "title": "Emplacement",
+      "tarifs": [
+        {
+          "catégories": "Emplacement libre pour tente, caravane ou camping-car",
+          "details": "pour 1 adulte",
+          "nuitBS": "10,00 €",
+          "semaineBS": "60,00 €",
+          "nuitHS": "12,00 €",
+          "semaineHS": "72,00 €"
+        },
+        {
+          "catégories": "Emplacement libre pour tente, caravane ou camping-car",
+          "details": "pour 2 adultes",
+          "nuitBS": "15,00 €",
+          "semaineBS": "90,00 €",
+          "nuitHS": "19,00 €",
+          "semaineHS": "114,00 €"
+        },
+        {
+          "catégories": "Personne supplémentaire ( plus de 13 ans)",
+          "details": "par personne",
+          "nuitBS": "4,30 €",
+          "semaineBS": "25,80 €",
+          "nuitHS": "4,80 €",
+          "semaineHS": "28,80 €"
+        },
+        {
+          "catégories": "Enfant de 3 à 13 ans",
+          "details": "par enfant",
+          "nuitBS": "3,10 €",
+          "semaineBS": "18,60 €",
+          "nuitHS": "3,60 €",
+          "semaineHS": "21,60 €"
+        },
+        {
+          "catégories": "Enfant de moins de 3 ans",
+          "details": "Gratuit",
+          "nuitBS": "Gratuit",
+          "semaineBS": "Gratuit",
+          "nuitHS": "Gratuit",
+          "semaineHS": "Gratuit"
+        },
+        {
+          "catégories": "Animal accepté uniquement sur emplacement libre ou chalet",
+          "details": "",
+          "nuitBS": "1,60 €",
+          "semaineBS": "11,20 €",
+          "nuitHS": "2,10 €",
+          "semaineHS": "14,70 €"
+        },
+        {
+          "catégories": "Tente supplémentaire",
+          "details": "par tente",
+          "nuitBS": "3,00 €",
+          "semaineBS": "21,00 €",
+          "nuitHS": "4,00 €",
+          "semaineHS": "28,00 €"
+        },
+        {
+          "catégories": "Véhicule supplémentaire",
+          "details": "1 véhicule inclus par emplacement",
+          "nuitBS": "2,10 €",
+          "semaineBS": "14,70 €",
+          "nuitHS": "2,10 €",
+          "semaineHS": "14,70 €"
+        },
+        {
+          "catégories": "Frais de dossier Camping",
+          "details": "Par dossier",
+          "nuitBS": "10,00 €",
+          "semaineBS": "10,00 €",
+          "nuitHS": "10,00 €",
+          "semaineHS": "10,00 €"
+        },
+        {
+          "catégories": "Electricité (1)",
+          "details": "Par jour / Par emplacement",
+          "nuitBS": "4,00 €",
+          "semaineBS": "28,00 €",
+          "nuitHS": "4,00 €",
+          "semaineHS": "28,00 €"
+        },
+        {
+          "catégories": "Taxe de séjour camping ",
+          "details": "Par personne de + de 18 ans / par jour",
+          "nuitBS": "0,50 €",
+          "semaineBS": "0,50 €",
+          "nuitHS": "0,50 €",
+          "semaineHS": "0,50 €"
+        },
+        {
+          "catégories": "Frais d'annulation  (2)",
+          "details": "Par dossier",
+          "nuitBS": "% du montant global de la réservation + 8 € de frais de dossier ",
+          "semaineBS": "% du montant global de la réservation + 8 € de frais de dossier ",
+          "nuitHS": "% du montant global de la réservation + 8 € de frais de dossier ",
+          "semaineHS": "% du montant global de la réservation + 8 € de frais de dossier "
+        },
+        {
+          "catégories": "Accès à la base de loisirs",
+          "details": "Gratuit ?",
+          "nuitBS": "",
+          "semaineBS": "",
+          "nuitHS": "",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Visiteur",
+          "details": "Par personne / par jour",
+          "nuitBS": "2,00 €",
+          "semaineBS": "",
+          "nuitHS": "2,00 €",
+          "semaineHS": ""
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": "(1) Le SIGLD se réserve le droit de modifier les tarifs à tout moment, selon le cours des énergies."
+        },
+        {
+          "mention": "(2) Se reporter au Conditions générales de ventes et Conditions Générales D'annulation."
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Chalet mobile home",
+      "tarifs": [
+        {
+          "catégories": "Chalet",
+          "details": "4-6 personnes",
+          "nuitBS": "80,00 €",
+          "semaineBS": "480,00 €",
+          "nuitHS": "110,00 €",
+          "semaineHS": "660,00 €"
+        },
+        {
+          "catégories": "Mobil-home 4",
+          "details": "4-6 personnes",
+          "nuitBS": "74,00 €",
+          "semaineBS": "444,00 €",
+          "nuitHS": "95,00 €",
+          "semaineHS": "570,00 €"
+        },
+        {
+          "catégories": "Mobil-home 6",
+          "details": "6-8p",
+          "nuitBS": "87,50 €",
+          "semaineBS": "525,00 €",
+          "nuitHS": "112,00 €",
+          "semaineHS": "672,00 €"
+        },
+        {
+          "catégories": "Personne supplémentaire ( plus de 13 ans)",
+          "details": "par personne",
+          "nuitBS": "4,30 €",
+          "semaineBS": "25,80 €",
+          "nuitHS": "4,80 €",
+          "semaineHS": "28,80 €"
+        },
+        {
+          "catégories": "Enfant de 3 à 13 ans",
+          "details": "par enfant",
+          "nuitBS": "3,10 €",
+          "semaineBS": "18,60 €",
+          "nuitHS": "3,60 €",
+          "semaineHS": "21,60 €"
+        },
+        {
+          "catégories": "Enfant de moins de 3 ans",
+          "details": "Gratuit",
+          "nuitBS": "  - ",
+          "semaineBS": "  - ",
+          "nuitHS": "  - ",
+          "semaineHS": "  - "
+        },
+        {
+          "catégories": "Animal accepté uniquement sur emplacement libre ou chalet",
+          "details": "",
+          "nuitBS": "1,60 €",
+          "semaineBS": "11,20 €",
+          "nuitHS": "2,10 €",
+          "semaineHS": "14,70 €"
+        },
+        {
+          "catégories": "Tente supplémentaire",
+          "details": "par tente",
+          "nuitBS": "3,00 €",
+          "semaineBS": "21,00 €",
+          "nuitHS": "4,00 €",
+          "semaineHS": "28,00 €"
+        },
+        {
+          "catégories": "Véhicule supplémentaire",
+          "details": "1 véhicule inclus par emplacement",
+          "nuitBS": "2,10 €",
+          "semaineBS": "14,70 €",
+          "nuitHS": "2,10 €",
+          "semaineHS": "14,70 €"
+        },
+        {
+          "catégories": "Frais de dossier",
+          "details": "Par dossier",
+          "nuitBS": "20,00 €",
+          "semaineBS": "",
+          "nuitHS": "20,00 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Electricité (1)",
+          "details": "Par jour / Par emplacement",
+          "nuitBS": "4,00 €",
+          "semaineBS": "28,00 €",
+          "nuitHS": "4,00 €",
+          "semaineHS": "28,00 €"
+        },
+        {
+          "catégories": "Caution  chalet ou  mobil-home",
+          "details": "Par dossier",
+          "nuitBS": "200,00 €",
+          "semaineBS": "",
+          "nuitHS": "200,00 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Taxe de séjour camping ",
+          "details": "Par personne de + de 18 ans / par jour",
+          "nuitBS": "0,50 €",
+          "semaineBS": "",
+          "nuitHS": "0,50 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Frais d'annulation  (2)",
+          "details": "Par dossier",
+          "nuitBS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "semaineBS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "nuitHS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "semaineHS": "% du montant global de la réservation +15€ de frais de dossier "
+        },
+        {
+          "catégories": "Accès à la base de loisirs",
+          "details": "",
+          "nuitBS": "",
+          "semaineBS": "",
+          "nuitHS": "",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Ménage  chalet ou  mobil-home",
+          "details": "quotidien ou fin de séjour ou à la demande",
+          "nuitBS": "60,00 €",
+          "semaineBS": "",
+          "nuitHS": "60,00 €",
+          "semaineHS": ""
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": "(1) Le SIGLD se réserve le droit de modifier les tarifs à tout moment, selon le cours des énergies."
+        },
+        {
+          "mention": "(2) Se reporter au Conditions générales de ventes et Conditions Générales D'annulation."
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Gîtes",
+      "tarifs": [
+        {
+          "catégories": "Dortoir",
+          "details": "Prix par personne, 6 personnes minimum",
+          "nuitBS": "12,50 €",
+          "semaineBS": "75,00 €",
+          "nuitHS": "12,50 €",
+          "semaineHS": "75,00 €"
+        },
+        {
+          "catégories": "Gîte du lac ",
+          "details": "4p",
+          "nuitBS": "95,00 €",
+          "semaineBS": "570,00 €",
+          "nuitHS": "95,00 €",
+          "semaineHS": "570,00 €"
+        },
+        {
+          "catégories": "Frais de dossier ",
+          "details": "Par dossier",
+          "nuitBS": "20,00 €",
+          "semaineBS": "",
+          "nuitHS": "20,00 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Electricité (1)",
+          "details": "Par jour / Par emplacement",
+          "nuitBS": "4,00 €",
+          "semaineBS": "28,00 €",
+          "nuitHS": "4,00 €",
+          "semaineHS": "28,00 €"
+        },
+        {
+          "catégories": "Caution Gîte",
+          "details": "Par dossier",
+          "nuitBS": "1 500,00 €",
+          "semaineBS": "",
+          "nuitHS": "1 500,00 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Taxe de séjour Gîtes ",
+          "details": "Par personne de + de 18 ans / par jour",
+          "nuitBS": "0,70 €",
+          "semaineBS": "",
+          "nuitHS": "0,70 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Frais d'annulation  (2)",
+          "details": "Par dossier",
+          "nuitBS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "semaineBS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "nuitHS": "% du montant global de la réservation +15€ de frais de dossier ",
+          "semaineHS": "% du montant global de la réservation +15€ de frais de dossier "
+        },
+        {
+          "catégories": "Ménage Gîte",
+          "details": "Option",
+          "nuitBS": "150,00 €",
+          "semaineBS": "",
+          "nuitHS": "150,00 €",
+          "semaineHS": ""
+        },
+        {
+          "catégories": "Assurance Annulation Gîtes  (3)",
+          "details": "Par dossier",
+          "nuitBS": "Multirisques 5,5% du montant de la réservation hors suppléments + 50 € de frais de dossier",
+          "semaineBS": "Premium 9,5% du montant de la réservation hors suppléments  + 50 € de frais de dossier",
+          "nuitHS": "Multirisques 5,5% du montant de la réservation hors suppléments + 50 € de frais de dossier",
+          "semaineHS": "Premium 9,5% du montant de la réservation hors suppléments  + 50 € de frais de dossier"
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": "(1) Le SIGLD se réserve le droit de modifier les tarifs à tout moment, selon le cours des énergies."
+        },
+        {
+          "mention": "(2) Se reporter au Conditions générales de ventes et Conditions Générales D'annulation."
+        },
+        {
+          "mention": "(3) Via Gîte de France et son partenaire Mutuaide Assurance, Sous Réserve de changement par Gîte de France et son partenaire Mutuaide Assurance, le SIGLD ne pourra être tenu responsable en cas de modifications opérées par Gîte de France et son partenaire Mutuaide Assurance. Document d'informations sur demande."
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Services",
+      "tarifs": [
+        {
+          "catégories": "Lit bébé en location 10 euros par semaine.",
+          "details": "",
+          "nuitBS": "",
+          "semaineBS": "",
+          "nuitHS": "",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Chaise bébé mise à disposition sur demande",
+          "details": "Gratuit",
+          "nuitBS": "",
+          "semaineBS": "",
+          "nuitHS": "",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Sèche-linge",
+          "details": "Le jeton",
+          "nuitBS": "4,50 €",
+          "semaineBS": "",
+          "nuitHS": "4,50 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Lave-linge",
+          "details": "Le jeton",
+          "nuitBS": "5,50 €",
+          "semaineBS": "",
+          "nuitHS": "5,50 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Douche personne non hébergée sur la base de loisirs",
+          "details": "par personne",
+          "nuitBS": "3,00 €",
+          "semaineBS": "",
+          "nuitHS": "3,00 €",
+          "semaineHs": ""
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": "Le SIGLD se réserve le droit de modifier les tarifs à tout moment, selon le cours des énergies."
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Accès base de loisirs",
+      "tarifs": [
+        {
+          "catégories": "Entrée 2 roues",
+          "details": "par Véhicule",
+          "nuitBS": "3,00 €",
+          "semaineBS": "",
+          "nuitHS": "3,00 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Entrée 4 roues",
+          "details": "par Véhicule",
+          "nuitBS": "5,00 €",
+          "semaineBS": "",
+          "nuitHS": "5,00 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Entrée 4 roues apres 16H",
+          "details": "par Véhicule",
+          "nuitBS": "2,00 €",
+          "semaineBS": "",
+          "nuitHS": "2,00 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Autocar",
+          "details": "par Véhicule",
+          "nuitBS": "25,00 €",
+          "semaineBS": "",
+          "nuitHS": "25,00 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Abonnement Entrée au mois",
+          "details": "par Véhicule",
+          "nuitBS": "30,00 €",
+          "semaineBS": "",
+          "nuitHS": "30,00 €",
+          "semaineHs": ""
+        },
+        {
+          "catégories": "Abonnement Entrée saison pour les 3 communes",
+          "details": "par Véhicule sur présentation de la carte grise",
+          "nuitBS": "20,00 €",
+          "semaineBS": "",
+          "nuitHS": "20,00 €",
+          "semaineHs": ""
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": ""
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "title": "Groupes",
+      "tarifs": [
+        {
+          "catégories": "activités Sportives possible avec notre partenaire Sport Nature Devesset",
+          "details": "",
+          "nuitBS": "Tarif sur demande",
+          "semaineBS": "",
+          "nuitHS": "",
+          "semaineHs": ""
+        }
+      ],
+      "mentions_legales": [
+        {
+          "mention": ""
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+        "title": "Location de salle",
+        "tarifs": [
+            {
+                "catégories": "Salle Pioullouse 12H",
+                "details": "",
+                "nuitBS": "200,00 €",
+                "semaineBS": "",
+                "nuitHS": "200,00 €",
+                "semaineHs": ""
+            },
+            {
+                "catégories": "Salle Pioullouse 24h",
+                "details": "",
+                "nuitBS": "400,00 €",
+                "semaineBS": "",
+                "nuitHS": "400,00 €",
+                "semaineHs": ""
+            },
+            {
+                "catégories": "Salle Scolaire ",
+                "details": "",
+                "nuitBS": "100,00 €",
+                "semaineBS": "",
+                "nuitHS": "100,00 €",
+                "semaineHs": ""
+            },
+            {
+                "catégories": "Caution salle",
+                "details": "",
+                "nuitBS": "1 500,00 €",
+                "semaineBS": "",
+                "nuitHS": "1 500,00 €"
+            }
+        ],
+        "mentions_legales": [
+            {
+                "mention": ""
+            }
+        ]
+    }
+  }
+]
