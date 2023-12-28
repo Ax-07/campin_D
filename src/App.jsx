@@ -11,8 +11,8 @@ import { Tarifs } from "./pages/Tarifs.jsx";
 export function App() {
   return (
     <LogementsProvider>
-      <div className="main">
         <Header />
+      <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Logement/:id" element={<Logement />} />

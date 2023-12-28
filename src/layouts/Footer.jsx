@@ -1,18 +1,14 @@
-import lettreK from "../assets/images/lettre_K.svg";
-import lettreA from "../assets/images/lettre_A.svg";
-import lettreS from "../assets/images/lettre_S.svg";
-import icon from "../assets/images/icon.svg";
+import { NavLink } from "react-router-dom";
+import logo from "/images/logo-lac-devesset.png";
+
 
 export const Footer = () => {
     return (
         <div className="footer">
-            <div className="footer__logo">
-                <img className="footer__logo-K" src={lettreK} alt="lettre K" />
-                <img className="footer__logo-icon" src={icon} alt="lettre A" />
-                <img className="footer__logo-S" src={lettreS} alt="lettre S" />
-                <img className="footer__logo-A" src={lettreA} alt="lettre A" />
-            </div>
-            <div className="footer__copyright">© 2020 Kasa. All rights reserved</div>
+      <NavLink className="navBar__link" to="/">
+        <img className="footer__logo logo" src={logo} alt="Logo" />
+        </NavLink>
+            <div className="footer__copyright">Camping du lac de Devesset</div>
         </div>
     );
 };

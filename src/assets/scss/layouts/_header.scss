@@ -1,9 +1,13 @@
 .header {
+    position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-    
+    width: 100%;
+    padding: 0 30px;
+    // margin-bottom: 50px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(100, 191, 246,0.2) 100%);    
     &__logo {
         height: 68px;
     }
@@ -12,11 +16,11 @@
 
 @media (max-width: 1023px) {
     .header {
-        height: 100%;
+        // height: 100%;
         margin-bottom: 19px;
         &__logo {
             width: 145px;
-            height: 46.9px;
+            // height: 46.9px;
         }
     }
 }

@@ -11,3 +11,13 @@ ul, li {
 a {
     text-decoration: none;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

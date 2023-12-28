@@ -7,10 +7,11 @@
         list-style: none;
     }
     &__item {
-        color: $color-primary;
+        // color: $color-primary;
+        color: #64bff6;
     }
     &__link {
-        color: inherit;
+        // color: inherit;
         text-decoration: none;
 
         &.active {
