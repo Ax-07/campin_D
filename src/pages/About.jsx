@@ -4,6 +4,7 @@ import { useState } from "react";
 import { getAllData } from "../services/api/logementApi";
 import { useEffect } from "react";
 import { DropDown } from "../components/DropDown";
+import { ModuleReservation } from "../components/ModuleReservation";
 
 export const About = () => {
   const [valeur, setValeur] = useState([]);
@@ -23,6 +24,7 @@ export const About = () => {
   return (
     <div className="section section__contents">
       <HeroBanner src="about" heroTitle="" heroImg={heroImg} />
+      <ModuleReservation />
       <div className="valeur">
         {valeur &&
           valeur.map((valeur, index) => (

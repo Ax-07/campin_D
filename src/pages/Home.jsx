@@ -1,3 +1,4 @@
+import { Slider } from "../components/Slider";
 import { Parallax, ParallaxElement } from "../layouts/Parallax";
 
 export const Home = () => {
@@ -30,6 +31,7 @@ export const Home = () => {
         <div className="section__contents">
           <h1 className="section__title">Le lac de Devesset</h1>
           <p className="section__slogan">Les vacances grandeur nature</p>
+        <Slider />
         </div>
       </ParallaxElement>
     </Parallax>

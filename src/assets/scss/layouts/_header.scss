@@ -5,11 +5,29 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 68px;
     padding: 0 30px;
     // margin-bottom: 50px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(100, 191, 246,0.2) 100%);    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 20%, rgb(100, 191, 246,0) 100%);    
     &__logo {
-        height: 68px;
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        width: 200px;
+        height: 120px;
+        transform: translateX(-50%);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 5%, rgb(100, 191, 246, 0.2) 100%);
+        border-radius: 50%;
+        border-left: 1px solid rgba(255, 255, 255, 1);
+        border-right: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+        overflow: hidden;
+        &-img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
     &__nav {}
 }

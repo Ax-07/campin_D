@@ -1,0 +1,91 @@
+.container {}
+
+.ng-scope {}
+
+.thr {
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    height: fit-content;
+    padding: 0.5rem;
+
+    &-search-engine {
+        max-width: 400px;
+
+        &-main {
+            display: flex;
+
+            // gap: 5px;
+            &>.thr-search-engine-dates {
+                flex: 1 0 100% !important;
+            }
+
+            &>.thr-search-engine-type {
+                flex: 0.5 0 50% 5px !important;
+            }
+
+            &>.thr-search-engine-pers {
+                flex: 0.5 0 50% 5px !important;
+
+            }
+
+            &>.thr-search-engine-promocode {}
+        }
+    }
+
+    &-btn-search {}
+}
+
+@media screen and (max-width: 768px) {
+    .thr {
+        &-search-engine {
+            &-main {
+                &>.thr-search-engine-dates {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-type {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-pers {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-promocode {}
+
+            }
+        }
+
+        &-btn-search {}
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .thr {
+        &-search-engine {
+            &-main {
+                display: flex;
+
+                &>.thr-search-engine-dates {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-type {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-pers {
+                    flex: 1 0 100% !important;
+                }
+
+                &>.thr-search-engine-promocode {}
+
+            }
+        }
+
+        &-btn-search {}
+    }
+
+}

@@ -1,16 +1,21 @@
-import { DropDown } from "../components/DropDown";
+import { useState } from 'react';
 import { MentionLegales, TarifsCard } from "../components/TarifsCard";
-import { useGetAllDataQuery } from "../services/api/tarifsApi";
 
 export const TarifsList = (categorie) => {
-  // const { data: tarifs = [], refetch: refetchTarifs } = useGetAllDataQuery();
   console.log(categorie.data.data);
-  // tarifs.forEach((categorie) => {
-  // console.log(categorie?.data?.mentions_legales);
-  // });
+  const [tarifs, setTarifs] = useState(categorie?.data?.tarifs || []);
+
+  const handleAddRow = () => {
+    // Ajoute un nouvel élément au tableau tarifs
+    setTarifs([...tarifs, {}]);
+  };
+
 
   return (
+    <>
+            <button onClick={handleAddRow}>Ajouter une ligne</button>
     <table className="tarifs__table">
+
       <thead className="tarifs__table-header">
         <tr className="tarifs__table-header">
           <td className="tarifs__table-item tarifs__table-item-categories">
@@ -40,5 +45,6 @@ export const TarifsList = (categorie) => {
           ))}
       </tfoot>
     </table>
+    </>
   );
 };

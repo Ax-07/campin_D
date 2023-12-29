@@ -5,8 +5,8 @@ import logo from "/images/logo-lac-devesset.png";
 export const Header = () => {
   return (
     <div className="header">
-      <NavLink className="navBar__link" to="/">
-        <img className="header__logo logo" src={logo} alt="Logo" />
+      <NavLink className="header__logo navBar__link" to="/">
+        <img className="header__logo-img" src={logo} alt="Logo" />
         </NavLink>
       <NavBar className="header__nav" />
     </div>
