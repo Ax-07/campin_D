@@ -360,7 +360,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .modal__btn {
-  position: absolute;
+  position: fixed;
   z-index: 1002;
   top: 100px;
   right: 0px;
