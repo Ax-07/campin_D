@@ -13,6 +13,9 @@ export const NavBar = () => {
         <li className="navBar__item">
           <NavLink className="navBar__link" to="/about">A Propos</NavLink>
         </li>
+        <li className="navBar__item">
+          <NavLink className="navBar__link" to="/composants">Composants</NavLink>
+        </li>
       </ul>
     </nav>
   );
