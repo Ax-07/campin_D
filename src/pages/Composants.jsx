@@ -6,8 +6,8 @@ export const Composants = () => {
         <section className="section section__contents">
             <HeroBanner src="about" heroTitle="" heroImg="./images/vueDuLac/coucherDeSoleilSurLeLac.jpg" />
             <Tabs>
-                <Tab1 title="tab1" imgSrc="/images/logo-lac-devesset.png"/>
-                <Tab2 title="tab2" imgSrc="/images/logo-lac-devesset.png"/>
+                <Tab1 title="tab1" imgSrc="./images/logo-lac-devesset.png"/>
+                <Tab2 title="tab2" imgSrc="./images/logo-lac-devesset.png"/>
                 {/* etc... (title permet de mettre un titre dans l'onglet idem pour imgSrc) */}
             </Tabs>
         </section>

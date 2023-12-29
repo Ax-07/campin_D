@@ -29,6 +29,7 @@
     }
     &__btn {
         position: absolute;
+        z-index: 1002;
         top: 100px;
         right: 0px;
         width: 100px;

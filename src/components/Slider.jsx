@@ -79,7 +79,7 @@ const SliderDots = ({ chalets, activeIndex, setIndex }) => (
 
 const SliderArrow = ({ direction, onClick }) => (
   <div className={`slider__arrow slider__arrow-${direction} prev`} onClick={onClick}>
-    <img src={`/images/arrow_btn-${direction}.svg`} alt={`fleche ${direction}`} />
+    <img src={`/camping_D/images/arrow_btn-${direction}.svg`} alt={`fleche ${direction}`} />
   </div>
 );
 
