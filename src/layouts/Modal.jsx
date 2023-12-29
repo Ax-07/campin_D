@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
+
 export const Modal = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (

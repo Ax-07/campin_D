@@ -1,7 +1,7 @@
-import { HeroBanner } from "../components/HeroBanner";
-import { TarifsList } from "../layouts/TarifsList";
-import { DropDown } from "../components/DropDown";
-import { useGetAllDataQuery } from "../services/api/tarifsApi";
+import { HeroBanner } from "../components/HeroBanner.jsx";
+import { TarifsList } from "../layouts/TarifsList.jsx";
+import { DropDown } from "../components/DropDown.jsx";
+import { useGetAllDataQuery } from "../services/api/tarifsApi.js";
 
 export const Tarifs = () => {
     const heroImg = './images/vueDuLac/20211011_194517.jpg';

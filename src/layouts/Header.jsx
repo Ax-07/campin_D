@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { NavBar } from "/src/components/NavBar";
+import { NavBar } from "/src/components/NavBar.jsx";
 import logo from "/images/logo-lac-devesset.png";
 
 export const Header = () => {

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MentionLegales, TarifsCard } from "../components/TarifsCard";
+import { MentionLegales, TarifsCard } from "../components/TarifsCard.jsx";
 
 export const TarifsList = (categorie) => {
   console.log(categorie.data.data);

@@ -1,5 +1,5 @@
-import { Tabs } from "../components/Tabs";
-import { HeroBanner } from "../components/HeroBanner";
+import { Tabs } from "../components/Tabs.jsx";
+import { HeroBanner } from "../components/HeroBanner.jsx";
 
 export const Composants = () => {
     return (

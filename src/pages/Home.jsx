@@ -1,5 +1,5 @@
-import { Slider } from "../components/Slider";
-import { Parallax, ParallaxElement } from "../layouts/Parallax";
+import { Slider } from "../components/Slider.jsx";
+import { Parallax, ParallaxElement } from "../layouts/Parallax.jsx";
 
 export const Home = () => {
   const parallaxDatas = {

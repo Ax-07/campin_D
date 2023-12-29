@@ -1,10 +1,10 @@
-import { HeroBanner } from "../components/HeroBanner";
+import { HeroBanner } from "../components/HeroBanner.jsx";
 // import heroImg from "../assets/images/b9995860bb6384a77ca7dc9bf52da3be.jpg";
 import { useState } from "react";
-import { getAllData } from "../services/api/logementApi";
+import { getAllData } from "../services/api/logementApi.js";
 import { useEffect } from "react";
-import { DropDown } from "../components/DropDown";
-import { ModuleReservation } from "../components/ModuleReservation";
+import { DropDown } from "../components/DropDown.jsx";
+import { ModuleReservation } from "../components/ModuleReservation.jsx";
 
 export const About = () => {
   const [valeur, setValeur] = useState([]);
