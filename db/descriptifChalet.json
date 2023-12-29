@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 0,
+        "src": "/images/chalet/chalet.jpg",
+        "alt": "chalet"
+    },
+    {
+        "id" : 1,
+        "src": "/images/chalet/terrasseChalet.jpg",
+        "alt": "terrasse du chalet"
+    },
+    {
+        "id" : 2,
+        "src": "/images/chalet/salonChalets.jpeg",
+        "alt": "salon du chalet"
+    },
+    {
+        "id" : 3,
+        "src": "/images/chalet/chambreChalet.jpg",
+        "alt": "chambre du chalet"
+    },
+    {
+        "id" : 4,
+        "src": "/images/chalet/chambre2Chalet.jpg",
+        "alt": "chambre du chalet"
+    },
+    {
+        "id" : 5,
+        "src": "/images/chalet/cuisineChalet.jpg",
+        "alt": "cuisine du chalet"
+    },
+    {
+        "id" : 6,
+        "src": "/images/vueDuLac/lacSnackBaseNautique.jpg",
+        "alt": "lac snack base nautique"
+    },
+    {
+        "id" : 6,
+        "src": "/images/vueDuLac/coucherDeSoleilSurLeLac.jpg",
+        "alt": "Coucher de soleil sur le lac"
+    }
+]
