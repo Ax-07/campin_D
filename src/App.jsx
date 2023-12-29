@@ -7,6 +7,8 @@ import { Header } from "./layouts/Header.jsx";
 import { Footer } from "./layouts/Footer.jsx";
 import { LogementsProvider } from "./contexts/logementsContext.jsx";
 import { Tarifs } from "./pages/Tarifs.jsx";
+import { Modal } from "./layouts/Modal.jsx";
+import { ModuleReservation } from "./components/ModuleReservation.jsx";
 
 export function App() {
   return (
@@ -22,6 +24,9 @@ export function App() {
         </Routes>
       </div>
       <Footer />
+      <Modal>
+        <ModuleReservation />
+      </Modal>
     </LogementsProvider>
   );
 }
