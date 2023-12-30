@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "/images/logo-lac-devesset.png";
+import logo from "/images/logo.png";
 
 
 export const Footer = () => {

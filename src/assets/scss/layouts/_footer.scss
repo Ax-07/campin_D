@@ -9,7 +9,7 @@
 
     padding: 66px 0 29px;
 
-    background: #000;
+    background: $color-bg-primary;
     &__logo {
         width: 122px;
         display: flex;
@@ -25,6 +25,7 @@
         &-A {}
     }
     &__copyright {
+        color: $color-primary;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
