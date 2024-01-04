@@ -14,6 +14,7 @@ export const displayElementOnScroll = (el) => {
                 logoElement.style.left = "calc(50%)";
                 logoElement.style.top = "168px";
                 logoElement.style.width = "200px";
+                logoElement.style.height = "200px";
 
             } else {
                 // Faire apparaître la barre de navigation
@@ -21,8 +22,9 @@ export const displayElementOnScroll = (el) => {
                 // place le logo à gauche la barre de navigation
                 logoElement.style.position = "relative";
                 logoElement.style.left = "50px";
-                logoElement.style.top = "-20px";
-                logoElement.style.width = "100px";
+                logoElement.style.top = "0px";
+                logoElement.style.width = "75px";
+                logoElement.style.height = "75px";
             }
         }
     }
