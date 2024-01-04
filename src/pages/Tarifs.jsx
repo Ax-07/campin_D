@@ -16,7 +16,6 @@ export const Tarifs = () => {
             </DropDown>
           ))}
         </div>
-       
     </section>
     );
 };

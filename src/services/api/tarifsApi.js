@@ -5,9 +5,9 @@ export const tarifsApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: '/camping_D' }),
     endpoints: (builder) => ({
         getAllData: builder.query({
-        query: () => `/db/model.json`,
+            query: () => `/db/model.json`,
         }),
     }),
-    });
+});
 
 export const { useGetAllDataQuery } = tarifsApi;
