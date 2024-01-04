@@ -10,16 +10,24 @@
 }
 
 .navBar__link {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 142.6%;
 }
 
-.hero-banner {
-    &__title {
-        font-size: 48px;
-        text-align: center;
-        color: #ffffff;
-    }
+.hero-banner__title {
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+.section__title {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+.section__slogan {
+    font-size: 36px;
+    text-align: center;
+    color: $color-primary;
 }
 
 .card__title {
