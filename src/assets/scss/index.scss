@@ -1,7 +1,10 @@
 @import './utils/variables.scss';
+@import './utils/animations/slide.scss';
+@import './utils/animations/fadeTransition.scss';
 
 @import './global/reset.scss';
 @import './global/fonts.scss';
+@import './global/font2.scss';
 
 @import './layouts/header.scss';
 @import './layouts/main.scss';
@@ -11,8 +14,8 @@
 @import './layouts/section.scss';
 @import './layouts/modal.scss';
 @import './layouts/tabs.scss';
-
 @import './layouts/gallery.scss';
+
 @import './pages/logement.scss';
 @import './pages/about.scss';
 @import './pages/error404.scss';
@@ -29,3 +32,6 @@
 @import './components/logo.scss';
 @import './components/slider.scss';
 @import './components/moduleReservation.scss';
+@import './components/contactForm.scss';
+@import './components/MasonryGallery.scss';
+@import './components/btnReservation.scss';
