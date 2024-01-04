@@ -10,13 +10,16 @@
     transition: all 0.3s ease-in-out;
     padding: 0 30px;
     // margin-bottom: 50px;
-    background: linear-gradient(180deg, $color-bg-primary 75%, rgb(100, 191, 246,0) 100%);    
+    background: linear-gradient(180deg, $color-bg-primary 85%, rgb(100, 191, 246,0) 100%);    
     &__logo {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 168px;
         left: 50%;
-        width: 200px;
-        height: 140px;
+        width: 200;
+        height: 200px;
         transform: translateX(-50%);
         transition: all 0.3s ease-in-out;
 
