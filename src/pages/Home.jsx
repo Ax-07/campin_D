@@ -1,8 +1,7 @@
-import { useEffect } from "react";
 import { Slider } from "../components/Slider.jsx";
 import { Parallax, ParallaxElement } from "../layouts/Parallax.jsx";
-import { displayElementOnScroll } from "../utils/functions/scrollEvents";
 import { useLocation } from "react-router-dom";
+import { useGetChaletsQuery } from "../services/api/chaletApi.js";
 export const Home = () => {
   const parallaxDatas = {
     home: {
@@ -27,16 +26,24 @@ export const Home = () => {
     },
   };
   const location = useLocation(); console.log(location.pathname);
-  useEffect(() => {
-  displayElementOnScroll({header: ".header", logo: ".header__logo"});
-  },[]);
+  const {data: chalets = []} = useGetChaletsQuery(); console.log(chalets);
 
   return (
     <Parallax>
       <ParallaxElement img={parallaxDatas.home.url} id={parallaxDatas.home.id}>
         <div className="section__contents">
-          <h1 className="section__title"></h1>
-          <p className="section__slogan">Les vacances grandeur nature</p>
+          <h1 className="section__title">Les vacances grandeur nature</h1>
+        </div>
+      </ParallaxElement>
+      <ParallaxElement img={null} id={parallaxDatas.hebergement.id}>
+        <div className="section__contents">
+          <p className="section__slogan">Des hébergements pour tous les goûts</p>
+          {chalets && <Slider data={chalets}/>}
+        </div>
+      </ParallaxElement>
+      <ParallaxElement img={parallaxDatas.activitées.url} id={parallaxDatas.activitées.id}>
+        <div className="section__contents">
+          <p className="section__slogan">Des activitées pour tous les goûts</p>
         </div>
       </ParallaxElement>
     </Parallax>

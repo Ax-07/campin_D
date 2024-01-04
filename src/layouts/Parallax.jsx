@@ -15,7 +15,7 @@ export const Parallax = ({ children }) => {
       <section
         id={id}
         className="section parallax__img "
-        style={{ backgroundImage: `url(${img})` }}
+        style={img ? { backgroundImage: `url(${img})` } : null}
       >
         {children}
       </section>
@@ -26,7 +26,7 @@ export const Parallax = ({ children }) => {
         children: PropTypes.node.isRequired,
     };
     ParallaxElement.propTypes = {
-        img: PropTypes.string.isRequired,
+        img: PropTypes.string,
         id: PropTypes.string.isRequired,
         children: PropTypes.node.isRequired,
     };
