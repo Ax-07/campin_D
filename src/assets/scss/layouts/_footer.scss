@@ -3,13 +3,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-
-    height: 209px;
-    gap: 28.556px;
-
-    padding: 66px 0 29px;
-
     background: $color-bg-primary;
+    
     &__logo {
         width: 122px;
         display: flex;
