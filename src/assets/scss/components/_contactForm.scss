@@ -1,0 +1,31 @@
+.contact {
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 587px;
+        margin: 20px auto;
+        &-label {}
+        &-input {
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px 20px;
+            border: 1px solid $color-primary;
+            border-radius: 10px;
+        }
+        &-textarea {}
+        &-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: small;
+
+            & > .contact__form-label {
+                text-align: justify;
+            }
+
+        }
+        &-button {}
+    }
+}
