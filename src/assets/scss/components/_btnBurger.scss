@@ -11,7 +11,7 @@
     width: 40px; // Largeur fixe
     height: 40px; // Hauteur fixe
     padding: 5px; // Espace autour des éléments internes
-    background: transparent; // Fond transparent
+    background: white; // Fond transparent
     overflow: hidden; // Cache les éléments qui dépassent du bouton
     cursor: pointer; // Le curseur devient une main lorsque vous survolez le bouton
 
@@ -60,6 +60,10 @@
         bottom: 50%; // La troisième ligne est déplacée au milieu
         left: 50%; // La troisième ligne est déplacée au milieu
         transform: translate(-50%, 50%) rotate(-45deg); // La troisième ligne est tournée de -45 degrés
+    }
+    &~.navBar {
+        // position: absolute;
+        display: flex;
     }
 }
 
