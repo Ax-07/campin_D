@@ -1,6 +1,6 @@
 import { Slider } from "../components/Slider.jsx";
 import { Parallax, ParallaxElement } from "../layouts/Parallax.jsx";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useGetChaletsQuery } from "../services/api/chaletApi.js";
 export const Home = () => {
   const parallaxDatas = {
@@ -38,6 +38,8 @@ export const Home = () => {
       <ParallaxElement img={null} id={parallaxDatas.hebergement.id}>
         <div className="section__contents">
           <p className="section__slogan">Des hébergements pour tous les goûts</p>
+          <p className="section__description">listing des différents hébergements et texte a la con pour attiré et promouvoir le camping, prompt a tester sur chat gpt.</p>
+          <NavLink to="/hebergements">voir tous nos hébergements</NavLink>
           {chalets && <Slider data={chalets}/>}
         </div>
       </ParallaxElement>
