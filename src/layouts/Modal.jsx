@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export const Modal = ({isOpen, setIsOpen, children }) => {
+export const Modal = ({children, isOpen, setIsOpen }) => {
   return (
     <>
 
