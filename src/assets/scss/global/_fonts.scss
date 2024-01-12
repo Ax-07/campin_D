@@ -9,23 +9,27 @@
     color: $color-primary;
 }
 
+.links-board__item-title {
+    font-size: $fs-base;
+    text-align: center;
+}
+
 .navBar__link {
     font-size: 16px;
-    line-height: 142.6%;
 }
 
 .hero-banner__title {
-    font-size: 48px;
+    font-size: $fs-title-xxl;
     text-align: center;
     color: #ffffff;
 }
 .section__title {
-    font-size: 48px;
+    font-size: $fs-title-xxl;
     text-align: center;
     color: white;
 }
 .section__slogan {
-    font-size: 36px;
+    font-size: $fs-title-xl;
     text-align: center;
     color: $color-primary;
 }
@@ -99,7 +103,7 @@
 
 @media (max-width: 1023px) {
     .navBar__link {
-        font-size: 12px;
+        // font-size: 12px;
     }
     .hero-banner {
         &__title {

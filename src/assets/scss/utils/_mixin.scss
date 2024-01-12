@@ -1,0 +1,66 @@
+@mixin row-center($gap: 0) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: $gap;
+}
+
+@mixin row-between {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin row-start($gap: 0) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: $gap;
+}
+
+@mixin row-end($gap: 0) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: $gap;
+}
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+@mixin col-center($gap: 0) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $gap;
+}
+
+@mixin col-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: $gap;
+}
+
+@mixin col-start($gap: 0) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: $gap;
+}
+
+@mixin col-end($gap: 0) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: $gap;
+}

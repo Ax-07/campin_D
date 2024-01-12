@@ -1,10 +1,27 @@
 // $color-primary: #2C7744;
 $color-primary: #043101; // couleur pour les titres
-$color-primary-light: #2C7744; // couleur pour les titres
+$color-primary-dark: #043101; // couleur pour les titres
+$color-primary-light: #026D00; // couleur pour les titres
 $color-secondary: #7b694d; // couleur pour les textes
-$color-tertiary: #ece1cd; // couleur pour les 
-$color-btn: #bd962d; // couleur pour les boutons
+$color-secondary-maquette: #6FBBF4; // couleur pour les textes
+$color-tertiary: #6FBBF4; // couleur pour les 
+$color-btn: #2E6927; // couleur pour les boutons
 
 $color-gray-light: #f3f3f3;
 
 $color-bg-primary: #f8f3e8;
+$gradient-secondary: linear-gradient(180deg, $color-primary-light 0%, $color-primary-dark 100%);
+
+// fonts styles
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
+
+// font sizes
+$fs-title-xxl: 48px;
+$fs-title-xl: 34px;
+$fs-title-l: 24px;
+$fs-base: 20px;
+$fs-paragraph: 14px; 
+$fs-paragraph-s: 10px;
+$fs-btn: 20px;
+

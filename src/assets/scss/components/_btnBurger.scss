@@ -1,7 +1,7 @@
 // Styles pour le bouton burger
 .burgerBtn {
     position: fixed; // Position fixe pour que le bouton reste au même endroit même lors du défilement
-    z-index: 100; // Z-index élevé pour s'assurer que le bouton est au-dessus des autres éléments
+    z-index: 1000; // Z-index élevé pour s'assurer que le bouton est au-dessus des autres éléments
     top: 10px; // Positionné à 10px du haut de la fenêtre
     right: 10px; // Positionné à 10px de la droite de la fenêtre
     display: flex; // Utilise flexbox pour l'alignement des éléments internes
@@ -11,7 +11,7 @@
     width: 40px; // Largeur fixe
     height: 40px; // Hauteur fixe
     padding: 5px; // Espace autour des éléments internes
-    background: white; // Fond transparent
+    background: transparent; // Fond transparent
     overflow: hidden; // Cache les éléments qui dépassent du bouton
     cursor: pointer; // Le curseur devient une main lorsque vous survolez le bouton
 
@@ -26,20 +26,22 @@
         transition: all 0.4s ease-in-out, top 0.4s ease-in-out; // Animation pour tous les changements de style et de position
         position: absolute; // Position absolue pour permettre le positionnement précis
         width: 75%; // Largeur fixe
-        border: 1px solid $color-primary; // Bordure avec une couleur définie par une variable SCSS
+        border: 1px solid $color-primary-light; // Bordure avec une couleur définie par une variable SCSS
 
         // Styles spécifiques pour chaque ligne
         &:nth-child(1) {
             top: 25%; // La première ligne est positionnée à 25% du haut
+            animation: burgerBottomLineRotation 0.6s linear; // Animation pour la rotation de la première ligne
         }
-
+        
         &:nth-child(2) {
             transform: translateY(-50%); // La deuxième ligne est déplacée vers le haut de 50% de sa propre hauteur
             top: 50%; // La deuxième ligne est positionnée à 50% du haut
         }
-
+        
         &:nth-child(3) {
             bottom: 25%; // La troisième ligne est positionnée à 25% du bas
+            animation: burgerTopLineRotation 0.6s linear; // Animation pour la rotation de la première ligne
         }
     }
 }
@@ -49,7 +51,8 @@
     .burgerBtn__line:nth-child(1) {
         top: 50%; // La première ligne est déplacée au milieu
         left: 50%; // La première ligne est déplacée au milieu
-        transform: translate(-50%, -50%) rotate(45deg); // La première ligne est tournée de 45 degrés
+        // transform: translate(-50%, -50%) rotate(45deg); // La première ligne est tournée de 45 degrés
+        animation: burgerTopLineRotation 0.4s ease-in-out forwards; // Animation pour la rotation de la première ligne
     }
 
     .burgerBtn__line:nth-child(2) {
@@ -59,11 +62,8 @@
     .burgerBtn__line:nth-child(3) {
         bottom: 50%; // La troisième ligne est déplacée au milieu
         left: 50%; // La troisième ligne est déplacée au milieu
-        transform: translate(-50%, 50%) rotate(-45deg); // La troisième ligne est tournée de -45 degrés
-    }
-    &~.navBar {
-        // position: absolute;
-        display: flex;
+        // transform: translate(-50%, 50%) rotate(-45deg); // La derniere ligne est tournée de -45 degrés
+        animation: burgerBottomLineRotation 0.4s ease-in-out forwards; // Animation pour la rotation de la première ligne
     }
 }
 
@@ -71,5 +71,28 @@
 @media screen and (min-width: 1024px) {
     .burgerBtn {
         display: none; // Le bouton burger est caché
+    }
+}
+
+@keyframes burgerTopLineRotation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg); // La première ligne est tournée de 45 degrés
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-90deg); // La première ligne est tournée de 45 degrés
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg); // La première ligne est tournée de 45 degrés
+    }
+}
+@keyframes burgerBottomLineRotation {
+    0% {
+        transform: translate(-50%, 50%) rotate(0deg); // La première ligne est tournée de 45 degrés
+    }
+    50% {
+        transform: translate(-50%, 50%, -50%) rotate(90deg,45deg); // La première ligne est tournée de 45 degrés
+    }
+    100% {
+        transform: translate(-50%, 50%) rotate(-45deg); // La première ligne est tournée de 45 degrés
     }
 }

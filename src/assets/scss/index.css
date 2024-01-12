@@ -1037,11 +1037,11 @@ body {
   position: relative;
   z-index: 999;
   display: flex;
-  padding: 10px 20px 20px 20px;
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
   width: 100%;
+  padding: 10px 20px 20px 20px;
   border-radius: 10px 10px 5px 5px;
   transform: translateY(-110%);
   transition: all 0.3s ease-in-out;

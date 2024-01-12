@@ -1,4 +1,5 @@
 @import './utils/variables.scss';
+@import './utils/mixin.scss';
 @import './utils/animations/slide.scss';
 @import './utils/animations/fadeTransition.scss';
 
@@ -15,6 +16,7 @@
 @import './layouts/modal.scss';
 @import './layouts/tabs.scss';
 @import './layouts/gallery.scss';
+@import './layouts/navLeft.scss';
 
 @import './pages/logement.scss';
 @import './pages/about.scss';
@@ -28,6 +30,7 @@
 @import './components/host.scss';
 @import './components/rating.scss';
 @import './components/dropDown.scss';
+@import './components/dropLink.scss';
 @import './components/tarifsCard.scss';
 @import './components/logo.scss';
 @import './components/slider.scss';
@@ -36,3 +39,5 @@
 @import './components/MasonryGallery.scss';
 @import './components/btnReservation.scss';
 @import './components/btnBurger.scss';
+@import './components/separateLine.scss';
+@import './components/linksBoard.scss';

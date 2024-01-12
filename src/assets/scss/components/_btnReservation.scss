@@ -1,7 +1,7 @@
 .btn__reservation {
     position: fixed;
-    z-index: 1002;
-    bottom: 0;
+    z-index: 1000;
+    bottom: -1px;
     right: 0px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
     height: 50px;
     border: none;
     border-radius: 5px 5px 0 0;
-    background-color: $color-primary-light;
+    background-image: $gradient-secondary;
     box-shadow: 0 0 10px $color-primary-light;
     color: $color-gray-light;
     font-size: larger;

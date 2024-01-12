@@ -1,0 +1,93 @@
+$animation-time: 0.2s;
+
+.dropLink {
+    position: relative;
+    @include flex-col;
+    overflow: hidden;
+    width: 100%;
+    max-height: 32px;
+    padding: 0 10px;
+    transition: width $animation-time linear, max-height $animation-time linear;
+    background-color: $color-bg-primary;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    border-radius: 0 0 5px 0;
+
+    &__topBar {
+        position: relative;
+        z-index: 2;
+        @include row-between;
+        height: 32px;
+        background-color: $color-bg-primary;
+    }
+
+    &__title {
+        font-size: $fs-base;
+    }
+
+    &__btn {
+        @include row-between;
+        width: 20px;
+        height: 20px;
+        transform: rotate(-90deg);
+        transition: transform $animation-time linear;
+
+        &>img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__list {
+        position: relative;
+        z-index: 1;
+        margin-left: 20px;
+        transform: translate(0, -100%);
+        transition: transform $animation-time linear;
+    }
+
+    &--open {
+        max-height: 150px !important;
+        transition: all $animation-time linear;
+        box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+        .dropLink__btn {
+            transform: rotate(90deg);
+            transition: transform $animation-time linear;
+        }
+
+        .dropLink__list {
+            transform: translate(0, 0);
+            transition: transform $animation-time linear;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .dropLink:hover {
+        max-height: 150px;
+        box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.5);
+        transition: all $animation-time linear;
+
+        .dropLink__btn {
+            transform: rotate(90deg);
+            transition: transform $animation-time linear;
+        }
+
+        .dropLink__list {
+            transform: translate(0, 0);
+            transition: transform $animation-time linear;
+        }
+    }
+
+    .dropLink {
+        &__topBar {}
+
+        &__title {}
+
+        &__btn {
+            display: none;
+        }
+
+        &__list {}
+    }
+}

@@ -1,0 +1,14 @@
+.links-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    &__item {
+        width: 125px;
+        height: 125px;
+        padding: 5px;
+        border-radius: 15px;
+        border: 1px solid $color-primary-light;
+    }
+}
