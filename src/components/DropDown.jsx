@@ -25,3 +25,27 @@ DropDown.propTypes = {
   children: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired,
 };
+
+export const DropDownReservation = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <div className={`dropDown ${isOpen ? "dropDown--open" : ""}`}>
+      <div className="dropDown__topBar">
+        <h2 className="dropDown__title">Réservation</h2>
+        <span className="dropDown__btn" onClick={toggle}>
+          <img src={arrow} alt="arrow" />
+        </span>
+      </div>
+      <div className="dropDown__content">{children}</div>
+    </div>
+  );
+};
+
+DropDownReservation.propTypes = {
+  children: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
+};
