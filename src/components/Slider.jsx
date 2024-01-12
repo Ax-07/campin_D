@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import arrow from "../assets/icons/btn-rightbtn-arrow (1).svg";
 
 export const Slider = ({data, currentIndex}) => {
   const datas = data; console.log(datas);
@@ -112,7 +113,7 @@ const SliderDots = ({ datas, activeIndex, setIndex }) => (
 
 const SliderArrow = ({ direction, onClick }) => (
   <div className={`slider__arrow slider__arrow-${direction} prev`} onClick={onClick}>
-    <img src={`/camping_D/images/arrow_btn-${direction}.svg`} alt={`fleche ${direction}`} />
+    <img src={arrow} alt={`fleche ${direction}`} />
   </div>
 );
 
